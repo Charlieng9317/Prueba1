@@ -3,13 +3,13 @@ import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
-  selector: 'app-root',
-  imports: [CommonModule,   RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  selector: 'app-labs',
+  imports: [CommonModule, RouterOutlet],
+  templateUrl: './labs.component.html',
+  styleUrl: './labs.component.scss'
 })
-export class AppComponent {
-  welcome = 'Bienvenido a mi primera aplicación con Angular';
+export class LabsComponent {
+  welcome = 'Bienvenidos a mi primera aplicación con Angular';
   tasks = [
     'Instalar Angular CLI',
     'Crear proyecto',
